@@ -37,6 +37,7 @@
 
     <Spinner
         android:id="@+id/sp_prov"
+        android:entries="@array/array_prov"
         android:layout_width="340dp"
         android:layout_height="40dp"
         android:background="@drawable/btn_round_gray"
@@ -66,6 +67,7 @@
 
     <Spinner
         android:id="@+id/sp_kota"
+        android:entries="@array/array_kota"
         android:layout_width="340dp"
         android:layout_height="40dp"
         android:background="@drawable/btn_round_gray"
@@ -93,6 +95,7 @@
         app:layout_constraintTop_toBottomOf="@+id/sp_kota"/>
 
     <Spinner
+        android:id="@+id/sp_pasar"
         android:layout_width="340dp"
         android:layout_height="40dp"
         android:layout_marginTop="8dp"
@@ -109,7 +112,7 @@
         android:layout_height="wrap_content"
         android:background="@drawable/btn_round_primary"
         android:fontFamily="@font/montserratbold"
-        android:text="Konfirmasi"
+        android:text="@string/konfirmasi"
         android:textAllCaps="false"
         android:textColor="@color/colorWhite"
         android:textSize="15sp"

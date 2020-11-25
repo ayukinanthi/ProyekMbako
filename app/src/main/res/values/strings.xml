@@ -1,6 +1,44 @@
 <resources>
     <string name="app_name">ProyekMbako</string>
     <string name="provinsi">Provinsi</string>
+    <string-array name="array_prov">
+        <item>--Pilih Provinsi--</item>
+        <item>Jawa Barat</item>
+        <item>Jawa Tengah</item>
+        <item>Jawa Timur</item>
+        <item>D.I Yogyakarta</item>
+        <item>DKI Jakarta</item>
+        <item>Sumatera Utara</item>
+        <item>Sumatera Selatan</item>
+        <item>Sumatera Barat</item>
+        <item>Kep. Riau</item>
+        <item>Kalimantan Utara</item>
+        <item>Kalimantan Utara</item>
+        <item>Kalimantan Utara</item>
+        <item>Kalimantan Utara</item>
+        <item>Kalimantan Utara</item>
+        <item>Kalimantan Utara</item>
+        <item>Kalimantan Utara</item>
+        <item>Kalimantan Utara</item>
+        <item>Kalimantan Utara</item>
+        <item>Kalimantan Utara</item>
+        <item>Kalimantan Utara</item>
+    </string-array>
     <string name="kota">Kota/Kabupaten</string>
+    <string-array name="array_kota">
+        <item>--Pilih Kota/Kabupaten--</item>
+        <item>--Pilih Kota/Kabupaten--</item>
+        <item>--Pilih Kota/Kabupaten--</item>
+    </string-array>
     <string name="pasar">Pasar</string>
+    <string name="konfirmasi">Konfirmasi</string>
+    <string-array name="array_pasar">
+        <item>--Pilih Pasar--</item>
+        <item>--Pilih Pasar--</item>
+        <item>--Pilih Pasar--</item>
+        <item>--Pilih Pasar--</item>
+        <item>--Pilih Pasar--</item>
+        <item>--Pilih Pasar--</item>
+        <item>--Pilih Pasar--</item>
+    </string-array>
 </resources>
