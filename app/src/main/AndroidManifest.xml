@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ChooseLoc"></activity>
+        <activity android:name=".Homepage"/>
+        <activity android:name=".ChooseLoc" />
         <activity android:name=".StartApp" />
         <activity android:name=".MainActivity">
             <intent-filter>

@@ -19,6 +19,7 @@ public class ChooseLoc extends AppCompatActivity implements AdapterView.OnItemSe
         //mengidentifikasi spinnernya sp_prov
         Spinner sp_prov = findViewById(R.id.sp_prov);
         Spinner sp_kota = findViewById(R.id.sp_kota);
+        Spinner sp_pasar = findViewById(R.id.sp_pasar);
         //pas masukin (this); dalam OnItemSelected jangan lupa untuk implements AdapterView.OnItemSelectedListener
         //terus di implement methodsnya
         sp_prov.setOnItemSelectedListener(this);

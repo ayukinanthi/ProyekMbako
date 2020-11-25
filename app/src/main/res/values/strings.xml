@@ -2,43 +2,29 @@
     <string name="app_name">ProyekMbako</string>
     <string name="provinsi">Provinsi</string>
     <string-array name="array_prov">
-        <item>--Pilih Provinsi--</item>
-        <item>Jawa Barat</item>
-        <item>Jawa Tengah</item>
-        <item>Jawa Timur</item>
         <item>D.I Yogyakarta</item>
-        <item>DKI Jakarta</item>
-        <item>Sumatera Utara</item>
-        <item>Sumatera Selatan</item>
-        <item>Sumatera Barat</item>
-        <item>Kep. Riau</item>
-        <item>Kalimantan Utara</item>
-        <item>Kalimantan Utara</item>
-        <item>Kalimantan Utara</item>
-        <item>Kalimantan Utara</item>
-        <item>Kalimantan Utara</item>
-        <item>Kalimantan Utara</item>
-        <item>Kalimantan Utara</item>
-        <item>Kalimantan Utara</item>
-        <item>Kalimantan Utara</item>
-        <item>Kalimantan Utara</item>
-        <item>Kalimantan Utara</item>
     </string-array>
     <string name="kota">Kota/Kabupaten</string>
     <string-array name="array_kota">
-        <item>--Pilih Kota/Kabupaten--</item>
-        <item>--Pilih Kota/Kabupaten--</item>
-        <item>--Pilih Kota/Kabupaten--</item>
+        <item>--Pilih Kota--</item>
+        <item>Sleman</item>
+        <item>Kulon Progo</item>
+        <item>Bantul</item>
+        <item>Gunung Kidul</item>
+        <item>Yogyakarta</item>
     </string-array>
     <string name="pasar">Pasar</string>
     <string name="konfirmasi">Konfirmasi</string>
     <string-array name="array_pasar">
         <item>--Pilih Pasar--</item>
-        <item>--Pilih Pasar--</item>
-        <item>--Pilih Pasar--</item>
-        <item>--Pilih Pasar--</item>
-        <item>--Pilih Pasar--</item>
-        <item>--Pilih Pasar--</item>
-        <item>--Pilih Pasar--</item>
+        <item>Pasar Argosari</item>
+        <item>Pasar Bantul</item>
+        <item>Pasar Beringharjo</item>
+        <item>Pasar Demangan</item>
+        <item>Pasar Gamping</item>
+        <item>Pasar Nanggulan</item>
     </string-array>
+    <string name="lokasipasar">Lokasi Pasar</string>
+    <string name="atur_lokasi_anda">Atur Lokasi Anda</string>
+    <string name="text_sembako_awal">Dapatkan pembaharuan informasi \n harga sembako di daerah anda</string>
 </resources>

@@ -28,6 +28,7 @@ public class StartApp extends AppCompatActivity {
                 Intent startapp = new Intent(StartApp.this, ChooseLoc.class);
                 startActivity(startapp);
                 finish();
+
             }
         });
 
