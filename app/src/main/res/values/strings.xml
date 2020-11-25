@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">ProyekMbako</string>
+    <string name="provinsi">Provinsi</string>
+    <string name="kota">Kota/Kabupaten</string>
+    <string name="pasar">Pasar</string>
+</resources>

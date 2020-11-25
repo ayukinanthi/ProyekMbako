@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChooseLoc">
+
+
+    <ImageView
+        android:id="@+id/applogo2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/logopapb"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.082" />
+
+    <TextView
+        android:id="@+id/textprov"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserratregular"
+        android:text="@string/provinsi"
+        android:textColor="@color/colorBlack"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.099"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/applogo2"
+        app:layout_constraintVertical_bias="0.06"
+        android:layout_marginTop="10dp"/>
+
+    <Spinner
+        android:id="@+id/sp_prov"
+        android:layout_width="340dp"
+        android:layout_height="40dp"
+        android:background="@drawable/btn_round_gray"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/applogo2"
+        app:layout_constraintVertical_bias="0.135" />
+
+    <TextView
+        android:id="@+id/textkota"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserratregular"
+        android:text="@string/kota"
+        android:textColor="@color/colorBlack"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.121"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499"
+        android:layout_marginTop="10dp"
+        />
+
+    <Spinner
+        android:id="@+id/sp_kota"
+        android:layout_width="340dp"
+        android:layout_height="40dp"
+        android:background="@drawable/btn_round_gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="392dp"
+        app:layout_constraintTop_toBottomOf="@+id/textkota"/>
+
+    <TextView
+        android:id="@+id/textpasar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserratregular"
+        android:text="@string/pasar"
+        android:textColor="@color/colorBlack"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.094"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="478dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintTop_toBottomOf="@+id/sp_kota"/>
+
+    <Spinner
+        android:layout_width="340dp"
+        android:layout_height="40dp"
+        android:background="@drawable/btn_round_gray"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="510dp"
+        app:layout_constraintTop_toBottomOf="@+id/textpasar"/>
+
+    <Button
+        android:id="@+id/buttonConfirm"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_round_primary"
+        android:fontFamily="@font/montserratbold"
+        android:text="Konfirmasi"
+        android:textAllCaps="false"
+        android:textColor="@color/colorWhite"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.896" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
