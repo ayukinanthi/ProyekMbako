@@ -2,15 +2,18 @@ package android.example.proyekmbako;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.Button;
 import android.widget.Spinner;
 
-public class ChooseLoc extends AppCompatActivity implements AdapterView.OnItemSelectedListener{
+public class ChooseLoc extends AppCompatActivity{
     Spinner sp_prov;
     Spinner sp_kota;
     Spinner sp_pasar;
+    Button buttonConfirm;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,22 +23,17 @@ public class ChooseLoc extends AppCompatActivity implements AdapterView.OnItemSe
         Spinner sp_prov = findViewById(R.id.sp_prov);
         Spinner sp_kota = findViewById(R.id.sp_kota);
         Spinner sp_pasar = findViewById(R.id.sp_pasar);
+        Button buttonConfirm = findViewById(R.id.buttonConfirm);
+        buttonConfirm.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent confirm = new Intent(ChooseLoc.this, Homepage.class);
+                startActivity(confirm);
+            }
+        });
         //pas masukin (this); dalam OnItemSelected jangan lupa untuk implements AdapterView.OnItemSelectedListener
         //terus di implement methodsnya
-        sp_prov.setOnItemSelectedListener(this);
-        sp_kota.setOnItemSelectedListener(this);
-        sp_pasar.setOnItemSelectedListener(this);
-
 
     }
 
-    @Override
-    public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-
-    }
-
-    @Override
-    public void onNothingSelected(AdapterView<?> parent) {
-
-    }
 }

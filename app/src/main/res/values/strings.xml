@@ -27,4 +27,15 @@
     <string name="lokasipasar">Lokasi Pasar</string>
     <string name="atur_lokasi_anda">Atur Lokasi Anda</string>
     <string name="text_sembako_awal">Dapatkan pembaharuan informasi \n harga sembako di daerah anda</string>
+    <string-array name="array_pangan">
+        <item>--Pilih Pangan--</item>
+        <item>Semua</item>
+        <item>Beras</item>
+        <item>Gula</item>
+        <item>Garam</item>
+        <item>Kaldu Bubuk</item>
+        <item>Telur</item>
+        <item>Susu</item>
+    </string-array>
+    <string name="populer">Populer Saat Ini</string>
 </resources>
