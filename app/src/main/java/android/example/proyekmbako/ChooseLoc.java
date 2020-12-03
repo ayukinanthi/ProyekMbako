@@ -29,6 +29,7 @@ public class ChooseLoc extends AppCompatActivity{
             public void onClick(View v) {
                 Intent confirm = new Intent(ChooseLoc.this, Homepage.class);
                 startActivity(confirm);
+                finish();
             }
         });
         //pas masukin (this); dalam OnItemSelected jangan lupa untuk implements AdapterView.OnItemSelectedListener
