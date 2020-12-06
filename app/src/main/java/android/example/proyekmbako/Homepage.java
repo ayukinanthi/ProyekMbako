@@ -17,6 +17,8 @@ public class Homepage extends AppCompatActivity implements AdapterView.OnItemSel
     Button btn_garam;
     Button btn_gula;
     Button btn_minyak;
+    Button beranda;
+    Button pengaturan;
 
 
     @Override
@@ -31,6 +33,8 @@ public class Homepage extends AppCompatActivity implements AdapterView.OnItemSel
         btn_garam = findViewById(R.id.btn_garam);
         btn_gula = findViewById(R.id.btn_gula);
         btn_minyak = findViewById(R.id.btn_minyak);
+        beranda = findViewById(R.id.beranda);
+        pengaturan = findViewById(R.id.pengaturan);
 
         btn_beras.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -61,6 +65,22 @@ public class Homepage extends AppCompatActivity implements AdapterView.OnItemSel
             public void onClick(View v) {
                 Intent susu = new Intent(Homepage.this, SusuActivity.class);
                 startActivity(susu);
+            }
+        });
+
+        beranda.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent beranda = new Intent(Homepage.this, Homepage.class);
+                startActivity(beranda);
+            }
+        });
+
+        pengaturan.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent pengaturan = new Intent(Homepage.this, SettingActivity.class);
+                startActivity(pengaturan);
             }
         });
 

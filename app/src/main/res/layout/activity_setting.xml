@@ -72,7 +72,7 @@
                     android:layout_marginLeft="20dp"
                     android:layout_marginTop="10dp"
                     android:fontFamily="@font/montserratregular"
-                    android:text="Tentang Aplikasi"
+                    android:text="@string/atur_lokasi_anda"
                     android:textColor="@color/colorGreen"
                     android:textSize="15sp" />
 
@@ -83,7 +83,7 @@
                     android:layout_marginLeft="20dp"
                     android:layout_marginTop="5dp"
                     android:fontFamily="@font/montserratregular"
-                    android:text="Informasi Aplikasi, Anggota Tim Proyek dan Pengembang"
+                    android:text="Atur lokasi pasar yang anda inginkan"
                     android:textColor="@color/colorBlack"
                     android:textSize="10sp" />
 
