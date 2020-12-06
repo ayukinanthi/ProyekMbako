@@ -59,7 +59,8 @@
             android:orientation="horizontal"
             android:weightSum="3">
 
-            <LinearLayout
+            <Button
+                android:id="@+id/btn_lokasi_setting"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="3"
@@ -87,7 +88,7 @@
                     android:textColor="@color/colorBlack"
                     android:textSize="10sp" />
 
-            </LinearLayout>
+            </Button>
         </LinearLayout>
     </LinearLayout>
 
@@ -128,7 +129,7 @@
                     android:layout_marginLeft="20dp"
                     android:layout_marginTop="10dp"
                     android:fontFamily="@font/montserratregular"
-                    android:text="What's New"
+                    android:text="Tentang Aplikasi"
                     android:textColor="@color/colorGreen"
                     android:textSize="15sp" />
 
@@ -172,22 +173,24 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:weightSum="3">
+
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="3"
             android:orientation="vertical">
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="FaQ"
-                android:textColor="@color/colorGreen"
-                android:fontFamily="@font/montserratregular"
-                android:textSize="15sp"
-                android:layout_marginLeft="24dp"
                 android:layout_marginStart="24dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="10dp"
                 android:layout_marginEnd="24dp"
-                android:layout_marginTop="10dp"/>
+                android:fontFamily="@font/montserratregular"
+                android:text="Tim Pengembang"
+                android:textColor="@color/colorGreen"
+                android:textSize="15sp" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -196,9 +199,9 @@
                 android:layout_marginLeft="24dp"
                 android:layout_marginTop="5dp"
                 android:layout_marginEnd="24dp"
-                android:textSize="10sp"
                 android:fontFamily="@font/montserratregular"
-                android:text="Frequently Asked Question"
+                android:text="Marhaendrajaya, Ninin Ernawati, Ayu Kinanthi"
+                android:textSize="10sp"
                 android:textColor="@color/colorBlack" />
         </LinearLayout>
 
