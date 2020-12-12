@@ -12,7 +12,6 @@
         android:theme="@style/AppTheme">
         <activity android:name=".MinyakActivity"></activity>
         <activity android:name=".GulaActivity" />
-        <activity android:name=".SettingActivity" />
         <activity android:name=".SusuActivity" />
         <activity android:name=".GaramActivity" />
         <activity android:name=".TelurActivity" />

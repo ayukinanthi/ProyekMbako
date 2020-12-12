@@ -17,8 +17,7 @@ public class Homepage extends AppCompatActivity implements AdapterView.OnItemSel
     Button btn_garam;
     Button btn_gula;
     Button btn_minyak;
-    Button beranda;
-    Button pengaturan;
+    Button setting_lokasi;
 
 
     @Override
@@ -33,8 +32,8 @@ public class Homepage extends AppCompatActivity implements AdapterView.OnItemSel
         btn_garam = findViewById(R.id.btn_garam);
         btn_gula = findViewById(R.id.btn_gula);
         btn_minyak = findViewById(R.id.btn_minyak);
-        beranda = findViewById(R.id.beranda);
-        pengaturan = findViewById(R.id.pengaturan);
+        setting_lokasi = findViewById(R.id.setting_lokasi);
+
 
         btn_beras.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -68,19 +67,27 @@ public class Homepage extends AppCompatActivity implements AdapterView.OnItemSel
             }
         });
 
-        beranda.setOnClickListener(new View.OnClickListener() {
+        btn_gula.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent beranda = new Intent(Homepage.this, Homepage.class);
-                startActivity(beranda);
+                Intent gula = new Intent(Homepage.this, GulaActivity.class);
+                startActivity(gula);
             }
         });
 
-        pengaturan.setOnClickListener(new View.OnClickListener() {
+        btn_minyak.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent pengaturan = new Intent(Homepage.this, SettingActivity.class);
-                startActivity(pengaturan);
+                Intent minyak = new Intent(Homepage.this, MinyakActivity.class);
+                startActivity(minyak);
+            }
+        });
+
+        setting_lokasi.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent setting = new Intent(Homepage.this, ChooseLoc.class);
+                startActivity(setting);
             }
         });
 
